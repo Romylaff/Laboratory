@@ -1,0 +1,46 @@
+.grid{
+    display: grid;
+    background-color: antiquewhite;
+    padding: 10px;
+    gap: 1px;
+    grid-template-areas: "a a a"
+                         "b b b"
+                         "c c c"
+                         "two three four"
+                         "two five auto";
+}
+.grid .item{
+    background-color: rgb(234, 204, 158);
+    text-align: left;
+    padding: 20px;
+    font-size: 30px;
+    border: 1px dotted rgb(217, 106, 16);
+}
+.item-a{
+    grid-area: a;
+    background-color: rgb(229, 236, 179);
+    border: 1px dotted rgb(217, 106, 16);
+}    
+.item-b{
+    grid-area: b;
+    background-color: rgb(229, 236, 179);
+    border: 1px dotted rgb(217, 106, 16);
+}
+.item-c{
+    
+    grid-area: c;
+    background-color: rgb(229, 236, 179);
+    border: 1px dotted rgb(217, 106, 16);
+}
+.item-two{
+    grid-area: two;
+}
+.item-three{
+    grid-area: three;
+}
+.item-four{
+    grid-area: four;
+}
+.item-five{
+    grid-area: five;
+}
